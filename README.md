@@ -1,12 +1,14 @@
 ## Hello!
 
-I am Lochie, also known as Locstock (and many other names). I'm a highschool student who enjoys programming and game design in my free (or busy) time. Hopefully this will eventually be a more proper hub with my projects and progress!
+I am Lochie, also known as Locstock (and many other names). I'm currently a highschool student who enjoys programming and game design in my free (or busy) time. Hopefully this will eventually be a more proper page with my projects and progress!
 
-#My projects
-Unfortunately at this time I have not publicised any of my projects.
+# My projects
+Unfortunately at this time I have not publicised any of my projects, however I hope to soon.
 
 ### Planned Projects
-I am planning on a few projects, none of which I will mention
+I am planning on a few projects, none of which I will mention.
 
 # Contact
-Want to contact me? Instagram: [@locstock04](https://www.instagram.com/locstock04/)
+Want to contact me?
+Instagram:  [@locstock04](https://www.instagram.com/locstock04/)
+Twitter:    [@locstock04](https://twitter.com/Locstock04)
