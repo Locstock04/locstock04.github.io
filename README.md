@@ -10,5 +10,7 @@ I am planning on a few projects, none of which I will mention.
 
 # Contact
 Want to contact me?
+<br/>
 Instagram:  [@locstock04](https://www.instagram.com/locstock04/)
+<br/>
 Twitter:    [@locstock04](https://twitter.com/Locstock04)
