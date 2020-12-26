@@ -13,5 +13,5 @@ Want to contact me?
 <br/>
 Instagram: [@locstock04](https://www.instagram.com/locstock04/)
 <br/>
-Twitter: &nbsp; &nbsp; &nbsp; [@locstock04](https://twitter.com/Locstock04)
+Twitter: &nbsp; [@locstock04](https://twitter.com/Locstock04)
 
