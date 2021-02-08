@@ -5,8 +5,11 @@ I am Lochie, also known as Locstock (and many other names). I'm currently a high
 # My projects
 Unfortunately at this time I have not publicised any of my projects, however I hope to soon.
 
-### Planned Projects
-I am planning on a few projects, none of which I will mention.
+## Planned Projects
+I am planning on a few projects, here's some that I'm willing to share;
+
+### Tetrerret
+For more [information about Tetrerret](https://locstock04.github.io/Tetrerret/)
 
 # Contact
 Want to contact me?
