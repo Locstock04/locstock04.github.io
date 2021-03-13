@@ -10,8 +10,12 @@ I am Lochie, also known as Locstock online. I'm currently a highschool student w
 ### Loc Bot
 I'm currently creating a discord bot, this was orginally made to help me and my friends but now I countinue to work on it so I can get more familer with using python and discord API in an interesting ways, you can check out the code for the discord bot [here](https://github.com/Locstock04/LocBot) 
 
+<br/>
+
 ### Tetrerret
 This is a game I'm working on, it'll be a while untill completion, you find more [information here](https://locstock04.github.io/Tetrerret/)
+
+<br/>
 
 ### Phive
 A multiplayer puzzle game, this is the project I have been working on the most, I'll put up more information in the future.
