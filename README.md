@@ -7,18 +7,23 @@ I am Lochie, also known as Locstock online. I'm currently a highschool student w
 
 ## My projects
 
+### Friends
+I am currently practicing creating games with friends so my projects are on hold at the moment to focus on developing with others, more information will be up in July 2021
+
+<br/>
+
 ### Loc Bot
 I'm currently creating a discord bot, this was orginally made to help me and my friends but now I countinue to work on it so I can get more familer with using python and discord API in an interesting ways, you can check out the code for the discord bot [here](https://github.com/Locstock04/LocBot) 
 
 <br/>
 
 ### Tetrerret
-This is a game I'm working on, it'll be a while untill completion, you find more [information here](https://locstock04.github.io/Tetrerret/)
+This is a game I was working on, it's currently on hold and it'll be a while untill completion, you'll find more [information here](https://locstock04.github.io/Tetrerret/)
 
 <br/>
 
 ### Phive
-A multiplayer puzzle game, this is the project I have been working on the most, I'll put up more information in the future.
+A multiplayer puzzle game, this is the project I have also put on hold to work, I'll put up more information in the future.
 
 <br/>
 <br/>
