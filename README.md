@@ -3,8 +3,6 @@
 
 ![meeanitests](https://user-images.githubusercontent.com/48468645/188485167-a2340125-8d60-4a1a-acd2-5ae76ff91583.gif)
 
-<br/>
-
 ## Projects
 
 [Platformer](https://locstock04.github.io/MarioLike)<br/>
