@@ -1,5 +1,6 @@
 ## Hello!
 
+![Animated person spinning](locstock04.io/github/meeanitests.gif)
 
 <br/>
 <br/>
