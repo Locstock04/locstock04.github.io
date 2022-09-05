@@ -1,13 +1,13 @@
 ## Hello!
 
-I am Lochie, also known as Locstock online. I'm currently a highschool student who enjoys programming and game design in my free (or busy) time. This will eventually be a more proper page with my projects and progress, you can find below the current projects I am working on and where to contact me if necessory, have a great day!
 
 <br/>
 <br/>
 
-## My projects
+## Projects
 
-Sorry but nothing is publically avaliable at the moment, I'll link any future projects in the future
+[Platformer](https://locstock04.github.io/MarioLike)
+[Viking](https://locstock04.github.io/VikingLife)
 
 <br/>
 <br/>
