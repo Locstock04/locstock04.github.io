@@ -1,6 +1,6 @@
 ## Hello!
 
-![Animated person spinning](locstock04.io/github/meeanitests.gif)
+<img src="locstock04.io/github/meeanitests.gif" alt="Lil dude spinning" />
 
 <br/>
 <br/>
