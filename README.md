@@ -6,7 +6,8 @@
 ## Projects
 
 [Platformer](https://locstock04.github.io/MarioLike)<br/>
-[Viking](https://locstock04.github.io/VikingLife)
+[Viking](https://locstock04.github.io/VikingLife)<br/>
+[LocBot](https://github.com/Locstock04/LocBot)
 
 <br/>
 <br/>
