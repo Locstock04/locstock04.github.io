@@ -13,7 +13,6 @@
 [LocBot](https://github.com/Locstock04/LocBot)
 
 <br/>
-<br/>
 
 ## Contact
 <br/>
