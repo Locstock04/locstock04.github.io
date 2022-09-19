@@ -11,7 +11,7 @@ Platformer
 
 <br/>
 Viking<br/>
-<iframe width="1024" height="640" src="https://locstock04.github.io/VikingLife"></iframe>
+<iframe width="1024" height="768" src="https://locstock04.github.io/VikingLife"></iframe>
 
 ### 2020
 [LocBot](https://github.com/Locstock04/LocBot)
