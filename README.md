@@ -6,8 +6,12 @@
 ## Projects
 
 ### 2018
-![Platformer](https://locstock04.github.io/MarioLike)<br/>
-![Viking](https://locstock04.github.io/VikingLife)<br/>
+Platformer
+<iframe width="1024" height="640" src="https://locstock04.github.io/MarioLike"></iframe>
+
+<br/>
+Viking
+<iframe width="1024" height="640" src="https://locstock04.github.io/VikingLife"></iframe>
 
 ### 2020
 [LocBot](https://github.com/Locstock04/LocBot)
