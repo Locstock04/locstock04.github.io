@@ -5,17 +5,17 @@
 
 ## Projects
 
+### 2018
 [Platformer](https://locstock04.github.io/MarioLike)<br/>
 [Viking](https://locstock04.github.io/VikingLife)<br/>
+
+### 2020
 [LocBot](https://github.com/Locstock04/LocBot)
 
 <br/>
 <br/>
 
 ## Contact
-Want to contact me?
-<br/>
-[Instagram](https://www.instagram.com/locstock04/)
 <br/>
 [LinkedIn](https://www.linkedin.com/in/lochlan-m-936127209/) 
 <br/>
