@@ -3,14 +3,28 @@
 <iframe width="1024" height="768" src="https://locstock04.github.io/VikingLife"></iframe>
 
 ## Controls
-Action | Move 
-:-|-:
-| Left  |   |
-|       | 'Left arrow' or 'A'|
-| Right |   |
-|       | 'Right arrow' or 'D' |
-| Down  |   |
-|       | 'Down arrow' or 'S' |
-| Up    |   |
-|       | 'Up arrow' or 'W' |
-| Reset Game | 'Ctrl' + 'R' |
+
+<table>  
+  <tr>  
+    <th>Action</th>  
+    <th>Move</th>  
+  </tr>  
+  <tr>  
+    <td>Left</td>  
+    <td>'Left arrow' or 'A'</td>  
+  </tr>  
+  <tr>  
+    <td>Right</td>  
+    <td> 'Right arrow' or 'D' </td>  
+  </tr>  
+    <tr>  
+    <td>Up</td>  
+    <td> 'Up arrow' or 'W'</td>  
+  </tr>  
+    <tr>  
+    <td>Down</td>  
+    <td> 'Down arrow' or 'S'</td>  
+  </tr>  
+
+  
+</table>
