@@ -5,12 +5,12 @@
 ## Controls
   | 
 :-|-:
- | Left  |   |
- |       | 'Left arrow' or 'A'|
- | Right |   |
- |       | 'Right arrow' or 'D' |
- | Down  |   |
- |       | 'Down arrow' or 'S' |
- | Up    |   |
- |       | 'Up arrow' or 'W' |
- | Reset Game | 'Ctrl' + 'R' |
+| Left  |   |
+|       | 'Left arrow' or 'A'|
+| Right |   |
+|       | 'Right arrow' or 'D' |
+| Down  |   |
+|       | 'Down arrow' or 'S' |
+| Up    |   |
+|       | 'Up arrow' or 'W' |
+| Reset Game | 'Ctrl' + 'R' |

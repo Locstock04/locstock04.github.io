@@ -4,9 +4,9 @@
 ## Controls
   | 
 :-|-:
- | Left  |   |
- |       | 'Left arrow' or 'A'|
- | Right |   |
- |       | 'Right arrow' or 'D' |
- | Jump  | 'Space'  |
- | Reset Game | 'Ctrl' + 'R' |
+| Left  |   |
+|       | 'Left arrow' or 'A'|
+| Right |   |
+|       | 'Right arrow' or 'D' |
+| Jump  | 'Space'  |
+| Reset Game | 'Ctrl' + 'R' |
