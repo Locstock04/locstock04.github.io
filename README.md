@@ -11,7 +11,7 @@
 ### 2020
 [LocBot](https://github.com/Locstock04/LocBot)
 ### 2021+
-[Programming on a CAS Calculator](https://locstock04.github.io/cascalculator)<br/>
+[Programming on a CAS Calculator](https://github.com/Locstock04/cascalculator)<br/>
 [Other game and project snippets](https://locstock04.github.io/snippets)
 
 
