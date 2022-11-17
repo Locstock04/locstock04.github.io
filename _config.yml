@@ -1,5 +1,4 @@
 theme: jekyll-theme-hacker
 title: Locstock
 description: Check this out later to see some of my past, current and future projects!
-github:
-  is_project_page: false
+github: is_project_page: false
