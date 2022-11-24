@@ -1,5 +1,5 @@
 # Platformer
-<iframe width="1024" height="640" src="https://locstock04.github.io/MarioLike"></iframe>
+<iframe width="1024" height="640" src="https://locstock.dev/MarioLike/"></iframe>
 
 ## Controls
 <table>  
