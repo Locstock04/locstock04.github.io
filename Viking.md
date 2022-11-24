@@ -1,6 +1,6 @@
 # Viking game
 
-<iframe width="1024" height="768" src="https://locstock04.github.io/VikingLife"></iframe>
+<iframe width="1024" height="768" src="https://locstock.dev/VikingLife"></iframe>
 
 ## Controls
 
