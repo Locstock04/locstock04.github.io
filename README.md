@@ -6,8 +6,8 @@
 ## Projects
 
 ### 2018
-[Platformer](https://locstock04.github.io/Platformer)<br/>
-[Viking](https://locstock04.github.io/Viking)<br/>
+[Platformer](https://locstock.dev/Platformer)<br/>
+[Viking](https://locstock04.dev/Viking)<br/>
 ### 2020
 [LocBot](https://github.com/Locstock04/LocBot)
 ### 2021+
