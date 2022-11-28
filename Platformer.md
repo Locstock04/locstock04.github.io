@@ -1,4 +1,5 @@
 # Platformer
+
 <iframe width="1024" height="640" src="https://locstock.dev/MarioLike/"></iframe>
 
 ## Controls
@@ -9,6 +10,7 @@
   <tr>  <td>Right</td>           <td> 'Right arrow' or 'D' </td> </tr>  
   <tr>  <td>Jump</td>           <td> 'Space' </td>                   </tr>  
   <tr>  <td>Reset Game</td> <td>  'Ctrl' + 'R'</td>              </tr>  
+</table>
 
 ## About
 This game was made for a small project in Year 8 to for a career themed showcase, each making something relating to an aspiring job, it was developed over a week. The objective of the game is reach the end of the level and get the most points.
