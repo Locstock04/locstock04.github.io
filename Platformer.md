@@ -2,6 +2,7 @@
 <iframe width="1024" height="640" src="https://locstock.dev/MarioLike/"></iframe>
 
 ## Controls
+
 <table>  
   <tr>  <th>Action</th>        <th>Move</th>                         </tr>  
   <tr>  <td>Left</td>             <td>'Left arrow' or 'A'</td>      </tr>  
