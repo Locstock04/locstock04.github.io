@@ -7,7 +7,7 @@
 
 ### 2018
 [Platformer](https://locstock.dev/Platformer)<br/>
-[Viking](https://locstock04.dev/Viking)<br/>
+[Viking](https://locstock.dev/Viking)<br/>
 ### 2020
 [LocBot](https://github.com/Locstock04/LocBot)
 ### 2021+
