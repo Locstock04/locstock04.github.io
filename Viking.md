@@ -1,6 +1,6 @@
 # Viking game
 
-<iframe width="1024" height="768" src="https://locstock.dev/VikingLife"></iframe>
+<iframe width="1024" height="768" src="https://locstock.dev/VikingLife/"></iframe>
 
 ## Controls
 
@@ -15,4 +15,4 @@
 ## About
 This game was made for a small project in Year 8 to demonstrate knowledge about Vikings, it was developed in my free time over around a week. The main objective of the game is to travel down to an island and trade items up until you can get a coin
 
-Developed in Gamemaker Studio 2, all art and programming by myself
+Developed in Gamemaker Studio 2, all art and programming by myself, Locstock
