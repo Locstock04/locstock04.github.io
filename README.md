@@ -16,6 +16,6 @@
 
 ## Socials / Contact
 <br/>
-[GitHub](https://github.com/Locstock04)
+[GitHub](https://github.com/Locstock04)<br/>
 [LinkedIn](https://www.linkedin.com/in/lochlan-m-936127209/) 
 <br/>
