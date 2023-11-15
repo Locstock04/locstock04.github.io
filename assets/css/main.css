@@ -3739,7 +3739,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(160, 160, 160, 1);
 			display: block;
 			font-size: 0.60em;
 			font-weight: bold;
@@ -3858,8 +3858,7 @@ input, select, textarea {
 					}
 
 						#sidebar nav a:after {
-							background-image: none;
-							background-color: #b74e91;
+							background-image: linear-gradient(to right, #8DF062, #46E894);
 						}
 
 		}
