@@ -1,10 +1,31 @@
 @import url(fontawesome-all.min.css);
 
 /*
+	Theme based upon
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+:root {
+    --main_gradient_left:#8DF062;
+    --main_gradient_right:#46E8B4;
+	--main-background: #101010;
+
+	--select_text: #000000;
+	--select_background: #ffffff;
+}
+
+
+::-moz-selection {
+	color: var(--select_text);
+  	background: var(--select_background);
+}
+
+::selection {
+	color: var(--select_text);
+  	background: var(--select_background);
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -98,7 +119,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #202020;
+		background: var(--main-background);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +218,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #8DF062, #46E894);
-				background-image: -webkit-linear-gradient(to right, #8DF062, #46E894);
-				background-image: -ms-linear-gradient(to right, #8DF062, #46E894);
-				background-image: linear-gradient(to right, #8DF062, #46E894);
+				background-image: -moz-linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
+				background-image: -webkit-linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
+				background-image: -ms-linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
+				background-image: linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1936,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #202020 !important;
+			color: var(--main-background) !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2377,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #202020;
+			background: var(--main-background);
 		}
 
 		select:focus::-ms-value {
@@ -2525,7 +2546,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #202020;
+			color: var(--main-background);
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2552,7 +2573,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #202020;
+					color: var(--main-background);
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3237,19 +3258,19 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #202020
+			background-color: var(--main-background)
 		}
 
 		.wrapper.style1 {
-			background-color: #202020;
+			background-color: var(--main-background);
 		}
 
 		.wrapper.style1-alt {
-			background-color: #202020;
+			background-color: var(--main-background);
 		}
 
 		.wrapper.style2 {
-			background-color: #202020;
+			background-color: #0F0F0F;
 			
 		}
 
@@ -3258,7 +3279,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #202020;
+			background-color: var(--main-background);
 		}
 
 		.wrapper.style3-alt {
@@ -3526,7 +3547,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #202020;
+		background: var(--main-background);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3767,10 +3788,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #8DF062, #46E894);
-				background-image: -webkit-linear-gradient(to right, #8DF062, #46E894);
-				background-image: -ms-linear-gradient(to right, #8DF062, #46E894);
-				background-image: linear-gradient(to right, #8DF062, #46E894);
+				background-image: -moz-linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
+				background-image: -webkit-linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
+				background-image: -ms-linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
+				background-image: linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
 				-moz-transition: max-width 0.3s ease;
 				-webkit-transition: max-width 0.3s ease;
 				-ms-transition: max-width 0.3s ease;
@@ -3858,7 +3879,7 @@ input, select, textarea {
 					}
 
 						#sidebar nav a:after {
-							background-image: linear-gradient(to right, #8DF062, #46E894);
+							background-image: linear-gradient(to right, var(--main_gradient_left), var(--main_gradient_right));
 						}
 
 		}
