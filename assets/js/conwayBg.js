@@ -1,6 +1,7 @@
 var canvas = document.createElement('canvas');
 ctx = canvas.getContext('2d');
 const intro = document.getElementById("intro");
+const spinningLoc = document.getElementById("spinningLoc");
 
 
 let grid = [];
@@ -43,6 +44,12 @@ intro.addEventListener('mousemove', function(event){
     applyToBackground();
 });
 
+spinningLoc.addEventListener('click', function(){
+    fillWith(0);
+    drawGrid();
+    applyToBackground();
+});
+
 window.addEventListener('resize', refreshValues);
 
 setInterval(update, 300);
@@ -62,7 +69,13 @@ function refreshValues() {
 }
 
 function update() {
-    let newGrid = grid;
+    let newGrid = [];
+    for (let c = 0; c < col; c++) {
+        newGrid[c] = [];
+        for (let r = 0; r < row; r++) {
+            newGrid[c][r] = grid[c][r];
+        }
+    }
 
     for(let c = 0; c < col; c++) {
         for(let r = 0; r < row; r++) {
@@ -80,23 +93,24 @@ function update() {
             }
         }
     }
-    grid = newGrid;
 
+    for (let c = 0; c < col; c++) {
+        grid[c] = [];
+        for (let r = 0; r < row; r++) {
+            grid[c][r] = newGrid[c][r];
+        }
+    }
+    
     drawGrid();
 }
 
 function countNeighboursAt(c, r) {
     let count = 0;
+    if (c <= 0 || c >= col - 1 || r <= 0 || r >= row - 1) {
+        return 0;
+    }
     for (let x = -1; x <= 1; x++) {
-        if (c + x < 0 || c + x > col - 1) {
-            count--;
-            continue;
-        }
         for (let y = -1; y <= 1; y++) {
-            if (r + y < 0 || r + y > row - 1) {
-                count--;
-                continue; 
-            }
             if (x == y && x == 0) {
                 continue;
             }
@@ -106,10 +120,10 @@ function countNeighboursAt(c, r) {
     return count;
 }
 
-function fillWhite() {
-    for (let c = 0; c < grid.length; c++) {
-        for (let r = 0; r < grid.length; r++) {
-            grid[c][r] = 1;
+function fillWith(value) {
+    for (let c = 0; c < col; c++) {
+        for (let r = 0; r < row; r++) {
+            grid[c][r] = value;
         }
     }
 }
@@ -123,9 +137,6 @@ function drawGrid() {
             if (grid[c][r] == 1) {
                 ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
             }
-            //else {
-            //     ctx.fillStyle = "#101010";
-            //}
         }
     }
     applyToBackground();
