@@ -39,8 +39,7 @@
 					<div class="inner">
 						<div class="nameHeader">
 							<h1>Lochlan<br>McDonald</h1>
-							
-							<img width="14%"  height="14%" src="images/spinningLoc.webp" alt="Spinning pixel Lochlan" >
+							<img id="spinningLoc" class="spinningLoc" width="14%" height="14%" src="images/spinningLoc.webp" alt="Spinning pixel Lochlan">
 						</div>
 						<p>Game Programmer!</p>
 						<ul class="icons">
@@ -62,47 +61,42 @@
 			<!-- Projects -->
 			<section id="projects" class="wrapper style2 spotlights">
 				<section id="engine">
-					<a href="" class="image"><img src="" alt="" data-position="top center" /></a>
+					<a class="image"><img src="images/sync&ecco.png" alt="Sync & Ecco"/></a>
 					<div class="content">
 						<div class="inner">
 							<h2>Custom Engine Game</h2>
 							<h3>Programmer</h3>
-							<p> Sync & Ecco, is a 2 player co-op asymmetric top-down game.</p>
+							<p> Sync & Ecco, is a 2 player co-op asymmetric top-down game. Created in a custom C++ engine, check out the <a href="https://github.com/Locstock04/LochieGraphics" target="_blank" rel="noopener noreferrer">source here</a>.</p>
 							<ul class="actions">
-								<li><a href="https://basalt-formations.itch.io/sync-and-ecco" class="button">Download</a></li>
-								<li><a href="https://github.com/Locstock04/LochieGraphics" class="button">Learn More</a></li>
-								<li><a href="https://github.com/Locstock04/LochieGraphics" class="button">Github <i class="icon brands fa-github"></i></a></li>
+								<li><a href="https://basalt-formations.itch.io/sync-and-ecco" class="button" target="_blank" rel="noopener noreferrer">Coming Soon</a></li>
+								<li><a href="https://github.com/Locstock04/LochieGraphics" class="button" target="_blank" rel="noopener noreferrer">Github <i class="icon brands fa-github"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</section>
 				<section id = "strings">
-					<a href="https://locstock.itch.io/no-strings-attached" class="image"><img src="images/noStringsAttached.webp" alt="No Strings attached game presented by FireBall Studios" data-position="center center" /></a>
+					<a href="https://locstock.itch.io/no-strings-attached" class="image" target="_blank" rel="noopener noreferrer"><img src="images/noStringsAttached.webp" alt="No Strings attached game presented by FireBall Studios"></a>
 					<div class="content">
 						<div class="inner">
 							<h2>No Strings Attached</h2>
 							<h3>Lead Programmer</h3>
-							<p>
-								Imagine sitting down for a puppet show, but they all start brutally fighting and pulling each other apart. Strings and limbs will go flying everywhere, may the last strings standing be declared the master of puppets!
-							</p>
+							<p>Imagine sitting down for a puppet show, but they all start brutally fighting and pulling each other apart. Strings and limbs will go flying everywhere, may the last strings standing be declared the master of puppets!</p>
 							<ul class="actions">
-								<li><a href="https://locstock.itch.io/no-strings-attached" class="button">Download</a></li>
-								<li><a href="" class="button">Learn More</a></li>
+								<li><a href="https://locstock.itch.io/no-strings-attached" class="button" target="_blank" rel="noopener noreferrer">Download</a></li>
 							</ul>
 						</div>
 					</div>
 				</section>
-				<section>
-					<a href="" class="image"><img src="" alt="" data-position="center center" /></a>
-					<div class="content">                                                                                                                                
+				<section id = "spooky">
+					<a href="https://tristan-thorpe.itch.io/redpines" class="image" target="_blank" rel="noopener noreferrer"><img src="images/redPinesIcon.jpg" alt="Red Pines"></a>
+					<div class="content">
 						<div class="inner">
 							<h2>Red Pines</h2>
 							<h3>Programmer</h3>
-							<p>
-								Red Pines is a short atmospheric driven horror experience. Samantha is missing. The search for Samantha has taken Jeremy and Matthew to the hills of Red Pines, located in rural Maryland. Throw caution, overcome your hesitation and find her.
-							</p>
+							<p>Red Pines is a short atmospheric driven horror experience. Samantha is missing. The search for Samantha has taken Jeremy and Matthew to the hills of Red Pines, located in rural Maryland. Throw caution, overcome your hesitation and find her.</p>
 							<ul class="actions">
-								<li><a href="https://tristan-thorpe.itch.io/redpines" class="button">Download</a></li>
+								<li><a href="https://tristan-thorpe.itch.io/redpines" class="button" target="_blank" rel="noopener noreferrer">Learn More</a></li>
+								<li><a href="https://www.youtube.com/watch?v=5slhYFpyODA" class="button" target="_blank" rel="noopener noreferrer">Trailer</a></li>
 							</ul>
 						</div>
 					</div>
@@ -111,82 +105,71 @@
 			<br/>
 			<!-- Other -->
 			<section id="other" class="wrapper style3 fade-up">
-				
 				<div class="inner">
-					<h2>Other</h2>
-					<p>Other games and projects I have made</p>
+					<h2>Other Projects</h2>
 					<div class="features">
 						<section class = "vectorLinesBackground">
 							<span class="icon solid major fa-cloud-showers-heavy"></span>
 							<h3>Weather Sim</h3>
 							<h4>C++ Programming</h4>
-							<p>
-								asdasd
-							</p>
-							<a href="" class="button">GitHub</a>
+							<p>A 2D weather simulator library created with an Eulerian grid-based fluid simulator. Supports wind, clouds, rain, water masses, 'walls', and basic tempeture.</p>
+							<a href="https://github.com/Locstock04/WeatherSim" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
 					  	</section>
 						<section class = "graphPaperBackground">
 							<span class="icon solid major fa-vector-square"></span>
 							<h3>2D Physics Engine</h3>
 							<h4>C++ Programming</h4>
-							<p>
-
-							</p>
-							<a href="GitHub" class="button">GitHub</a>
+							<p>A simple 2D physics engine with circle, planes and rectangles. Can have individual physics objects use either Eulerian or Verlet integration and interact with each other.</p>
+							<a href="https://github.com/Locstock04/2DPhysicsSim" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
 					  	</section>
 						<section class = "skullsBackground">
 							<span class="icon solid major brands fa-unity"></span>
 							<h3>Desperado Joe</h3>
 							<h4>C# Unity Programming</h4>
-							<p>
-								Clear your city of mercs leaving a trail of destruction in your wake in this homage to classic early 2000s flash games!
-							</br></br>
-								2D Platformer Shooter developed in Unity.
-							</p>
-							<a href="https://tristan-thorpe.itch.io/desperado-joe" class="button">Download</a>
+							<h5>2D Platformer Shooter</h5>
+							<p>Clear your city of mercs leaving a trail of destruction in your wake in this homage to classic early 2000s flash games!</p>
+							<a href="https://tristan-thorpe.itch.io/desperado-joe" class="button" target="_blank" rel="noopener noreferrer">Download</a>
 						</section>
 						<section class = "floorTileBackground">
 							<span class="icon solid major brands fa-unity"></span>
 							<h3>Running From Your Responsibilities</h3>
 							<h4>C# Unity Programming</h4>
-							<p>
-								The consequences of never growing up and facing life. Running from your problems has it's consequences.
-							</br><br/>
-								3D Platformer story game developed in Unity.
-							</p>
-							<a href="https://tristan-thorpe.itch.io/running-from-your-responsibilities" class="button">Download</a>
+							<h5>3D Platformer story game</h5>
+							<p>The consequences of never growing up and facing life. Running from your problems has it's consequences.</p>
+							<a href="https://tristan-thorpe.itch.io/running-from-your-responsibilities" class="button" target="_blank" rel="noopener noreferrer">Download</a>
 					  	</section>
 						<section class = "fancyRectanglesBackground">
 							<span class="icon solid major fa-calculator"></span>
 							<h3>CAS Calculator Programming</h3>
 							<h4>Python Programming</h4>
-							<p>A sandbox experiment made on and for the a CAS calculator in between my classes.</p>
-							<a href="https://github.com/Locstock04/cascalculator" class="button">GitHub</a>
+							<p>A falling sand playground / experiment that I made on and for the CAS calculator in between my classes.</p>
+							<a href="https://github.com/Locstock04/cascalculator" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
 					  	</section>
 						<section class = "cogsBackground">
 							<span class="icon solid major brands fa-discord"></span>
 							<h3>Loc Bot - My discord bot</h3>
 							<h4>Python Programming</h4>
 							<p>Originally developed for to have better voice commands for friends, and now lives on as hobby project.</p>
-							<a href="https://github.com/Locstock04/LocBot" class="button">GitHub</a>
-					  	</section>
-					  	<section class = "signalBackground">
-							<span class="icon solid major fa-network-wired"></span>
-							<h3>Networking Prototypes</h3>
-							<p>I've worked on a few network games before, both inside of Unity with <a href="https://mirror-networking.com/">Mirror</a> and with C# using <a href="https://learn.microsoft.com/en-us/dotnet/api/system.net.sockets.socket?view=net-7.0">.Net sockets.</a></p>
-							<a href="NetworkSnippets.html" class="button">Some examples</a>
+							<a href="https://github.com/Locstock04/LocBot" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
 					  	</section>
 						<section class = "randomShapesBackground">
 							<span class="icon solid major fa-gamepad"></span>
 							<h3>Platformer Game</h3>
-							<p> A project in Year 8 to for an aspiring career showcase. Made in <a href="https://gamemaker.io">GameMaker Studio 2.</a></p>
-							<a href="Platformer.html" class="button">Play here</a>
+							<h4>GameMaker Studio 2</h4>
+							<p> A project in Year 8 to for an aspiring career showcase.</a></p>
+							<a href="https://locstock.itch.io/platformer" class="button" target="_blank" rel="noopener noreferrer">Play here</a>
 						</section>
 						<section class = "pixelDotsBackground">
 							<span class="icon solid major fa-bread-slice"></span>
-							<h3><a href="https://locstock.dev/Viking">Viking Game</a></h3>
-							<p>A project in Year 8 to demonstrate knowledge about Vikings. Made in GameMaker Studio 2.</p>
-							<a href="Viking.html" class="button">Play here</a>
+							<h3>Viking Game</h3>
+							<h4>GameMaker Studio 2</h4>
+							<p>A project in Year 8 to demonstrate knowledge about Vikings.</p>
+							<a href="https://locstock.itch.io/viking" class="button" target="_blank" rel="noopener noreferrer">Play here</a>
+						</section>
+						<section class = "signalBackground">
+							<span class="icon solid major fa-network-wired"></span>
+							<h3>Networking Prototypes</h3>
+							<p>I've worked on a few network games before, both inside of Unity with <a href="https://mirror-networking.com/" target="_blank" rel="noopener noreferrer">Mirror</a> and with C# using <a href="https://learn.microsoft.com/en-us/dotnet/api/system.net.sockets.socket?view=net-7.0" target="_blank" rel="noopener noreferrer">.Net sockets.</a></p>
 						</section>
 					  	<section class = "circutBoardBackground">
 							<span class="icon solid major fa-seedling"></span>
@@ -209,11 +192,11 @@
 						<li>
 							<h3>Social Media</h3>
 							<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/locstock/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/Locstock04" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://locstock.itch.io/" class="icon brands fa-itch-io"><span class="label">Itch</span></a></li>
-								<li><a href="https://www.instagram.com/locstock04/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://twitter.com/Locstock04" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.linkedin.com/in/locstock/" class="icon brands fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/Locstock04" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+								<li><a href="https://locstock.itch.io/" class="icon brands fa-itch-io" target="_blank" rel="noopener noreferrer"><span class="label">Itch</span></a></li>
+								<li><a href="https://www.instagram.com/locstock04/" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a></li>
+								<li><a href="https://twitter.com/Locstock04" class="icon brands fa-twitter" target="_blank" rel="noopener noreferrer"><span class="label">Twitter</span></a></li>
 							</ul>
 						</li>
 					</ul>
@@ -226,13 +209,13 @@
 				<ul class="menu">
 					<li>&copy; Lochlan McDonald. All rights reserved.</li> 
 					<li>
-						<a href="https://www.linkedin.com/in/locstock/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a> &nbsp;
-						<a href="https://github.com/Locstock04" class="icon brands fa-github"><span class="label">GitHub</span></a> &nbsp;
-						<a href="https://locstock.itch.io/" class="icon brands fa-itch-io"><span class="label">Itch</span></a> &nbsp;
-						<a href="https://www.instagram.com/locstock04/" class="icon brands fa-instagram"><span class="label">Instagram</span></a> &nbsp;
-						<a href="https://twitter.com/Locstock04" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+						<a href="https://www.linkedin.com/in/locstock/" class="icon brands fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a> &nbsp;
+						<a href="https://github.com/Locstock04" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a> &nbsp;
+						<a href="https://locstock.itch.io/" class="icon brands fa-itch-io" target="_blank" rel="noopener noreferrer"><span class="label">Itch</span></a> &nbsp;
+						<a href="https://www.instagram.com/locstock04/" class="icon brands fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a> &nbsp;
+						<a href="https://twitter.com/Locstock04" class="icon brands fa-twitter" target="_blank" rel="noopener noreferrer"><span class="label">Twitter</span></a>
 					</li>
-					<li>Design based from: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>Design based from: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</footer>

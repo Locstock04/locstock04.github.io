@@ -153,5 +153,4 @@ function applyToBackground() {
     intro.style.backgroundSize = "contain";
     intro.style.backgroundRepeat = "no-repeat";
     //intro.style.backgroundSize = width + "px" + " " + height + "px";
-
 }
