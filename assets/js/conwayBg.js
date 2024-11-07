@@ -3,11 +3,12 @@ ctx = canvas.getContext('2d');
 const intro = document.getElementById("intro");
 
 
-
 let grid = [];
-let row = 50;
+let row = 40;
 let col = 50;
 let h = 0;
+
+let sizeMultiplier = 0.5;
 
 let width = intro.clientWidth;
 let height = intro.clientHeight;
@@ -15,34 +16,49 @@ let height = intro.clientHeight;
 canvas.width = width;
 canvas.height = height;
 
+let gridSize = ((canvas.width / col) + (canvas.height / row)) / 2 * 0.5;
 
-// Loop to initialize 2D array elements.
-for (let i = 0; i < row; i++) {
-    grid[i] = [];
-    for (let j = 0; j < col; j++) {
-        grid[i][j] = h;
+for (let c = 0; c < col; c++) {
+    grid[c] = [];
+    for (let r = 0; r < row; r++) {
+        grid[c][r] = h;
     }
 }
 
-
-drawGrid(col, row, 30);
-
-
-
-
+drawGrid();
 
 intro.addEventListener('mousemove', function(event){
-    //flipSpot(event); 
-    let c = clamp(Math.floor((event.offsetX / width) * col), 0, col - 1);
-    let r = clamp(Math.floor((event.offsetY / height) * row), 0, row - 1)
+    let x = event.pageX - intro.offsetLeft;
+    let y = event.pageY - intro.offsetTop;
+    let c = clamp(Math.round(((x) / width) * col), 0, col - 1);
+    let r = clamp(Math.round((y / height) * row), 0, row - 1)
     grid[c][r] = 1;
-    drawGrid(col, row, 30);
-})
+    drawGrid();
+    //ctx.fillStyle = "#AAFF22";
+    //ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
+    //ctx.fillStyle = "#FF1010";
+    //ctx.fillRect(x, y, 10, 10);
+    //ctx.fillStyle = "#FF10FF";
+    //ctx.fillRect(x + intro.offsetLeft, y + intro.offsetTop, 10, 10);
+    applyToBackground();
+});
 
-setInterval(update, 1000);
+window.addEventListener('resize', refreshValues);
+
+setInterval(update, 300);
 
 function clamp(value, min, max) {
     return Math.min(max, Math.max(value, min));
+}
+
+function refreshValues() {
+    width = intro.clientWidth;
+    height = intro.clientHeight;
+
+    canvas.width = width;
+    canvas.height = height;
+
+    gridSize = ((canvas.width / col) + (canvas.height / row)) / 2 * 0.5;
 }
 
 function update() {
@@ -66,7 +82,7 @@ function update() {
     }
     grid = newGrid;
 
-    drawGrid(col, row, 30);
+    drawGrid();
 }
 
 function countNeighboursAt(c, r) {
@@ -98,19 +114,24 @@ function fillWhite() {
     }
 }
 
-function drawGrid(cCount, rCount, size) {
-    
-    for (let c = 0; c < cCount ; c++) {
-        for (let r = 0; r < rCount; r++) {
+function drawGrid() {
+    ctx.fillStyle = "#101010";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "#202020";
+    for (let c = 0; c < col; c++) {
+        for (let r = 0; r < row; r++) {
             if (grid[c][r] == 1) {
-                ctx.fillStyle = "#202020";
+                ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
             }
-            else {
-                 ctx.fillStyle = "#101010";
-            }
-            ctx.fillRect(c / cCount * canvas.width , r / rCount * canvas.height, size, size);
+            //else {
+            //     ctx.fillStyle = "#101010";
+            //}
         }
     }
+    applyToBackground();
+}
+
+function applyToBackground() {
     // canvas.toBlob((blob) => {
     //     const url = URL.createObjectURL(blob);
         
@@ -118,7 +139,8 @@ function drawGrid(cCount, rCount, size) {
 
     // });
     intro.style.background = 'url(' + canvas.toDataURL() + ')';
-    // intro.style.backgroundSize = "cover";
+    intro.style.backgroundSize = "contain";
     intro.style.backgroundRepeat = "no-repeat";
     //intro.style.backgroundSize = width + "px" + " " + height + "px";
+
 }
