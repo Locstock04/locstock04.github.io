@@ -11,13 +11,10 @@ let h = 0;
 
 let sizeMultiplier = 0.5;
 
-let width = intro.clientWidth;
-let height = intro.clientHeight;
-
-canvas.width = width;
-canvas.height = height;
-
-let gridSize = ((canvas.width / col) + (canvas.height / row)) / 2 * 0.5;
+let width = 0;
+let height = 0;
+let gridSize = 0;
+refreshValues();
 
 for (let c = 0; c < col; c++) {
     grid[c] = [];
@@ -26,14 +23,16 @@ for (let c = 0; c < col; c++) {
     }
 }
 
-drawGrid();
-
 intro.addEventListener('mousemove', function(event){
     let x = event.pageX - intro.offsetLeft;
     let y = event.pageY - intro.offsetTop;
     let c = clamp(Math.round(((x) / width) * col), 0, col - 1);
     let r = clamp(Math.round((y / height) * row), 0, row - 1)
     grid[c][r] = 1;
+
+    //ctx.fillStyle = "#202020";
+    //ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
+    
     drawGrid();
     //ctx.fillStyle = "#AAFF22";
     //ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
@@ -41,7 +40,7 @@ intro.addEventListener('mousemove', function(event){
     //ctx.fillRect(x, y, 10, 10);
     //ctx.fillStyle = "#FF10FF";
     //ctx.fillRect(x + intro.offsetLeft, y + intro.offsetTop, 10, 10);
-    applyToBackground();
+    //applyToBackground();
 });
 
 spinningLoc.addEventListener('click', function(){
@@ -143,12 +142,11 @@ function drawGrid() {
 }
 
 function applyToBackground() {
-    // canvas.toBlob((blob) => {
-    //     const url = URL.createObjectURL(blob);
-        
-    //     intro.style.background = 'url(' + url + ')';
-
-    // });
+    //canvas.toBlob((blob) => {
+    //    const url = URL.createObjectURL(blob);
+    //    intro.style.background = 'url(' + url + ')';
+    //    //URL.revokeObjectURL(url);
+    //}, "image/png",  );
     intro.style.background = 'url(' + canvas.toDataURL() + ')';
     intro.style.backgroundSize = "contain";
     intro.style.backgroundRepeat = "no-repeat";
