@@ -29,6 +29,7 @@ if ( navigator.userAgent.includes("Gecko") && !navigator.userAgent.includes("lik
     console.log("Conway background can have some issues rendering on gecko, limiting the extra draws");
 }
 
+// TODO: Do this on scroll as well
 intro.addEventListener('mousemove', function(event){
     let x = event.pageX - intro.offsetLeft;
     let y = event.pageY - intro.offsetTop;
@@ -36,19 +37,9 @@ intro.addEventListener('mousemove', function(event){
     let r = clamp(Math.round((y / height) * row), 0, row - 1)
     grid[c][r] = 1;
 
-    //ctx.fillStyle = "#202020";
-    //ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
-    
     if (!gecko) {
         drawGrid();
     }
-    //ctx.fillStyle = "#AAFF22";
-    //ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
-    //ctx.fillStyle = "#FF1010";
-    //ctx.fillRect(x, y, 10, 10);
-    //ctx.fillStyle = "#FF10FF";
-    //ctx.fillRect(x + intro.offsetLeft, y + intro.offsetTop, 10, 10);
-    //applyToBackground();
 });
 
 spinningLoc.addEventListener('click', function(){

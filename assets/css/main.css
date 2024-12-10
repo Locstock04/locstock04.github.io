@@ -11,6 +11,9 @@
     --main_gradient_left:#8DF062;
     --main_gradient_right:#46E8B4;
 	--main-background: #101010;
+
+	--generic_gradient_left: #374e38;
+	--generic_gradient_right: #2b3550;
 	/* #010409 */
 
 	--select_text: #000000;
@@ -3057,6 +3060,9 @@ input, select, textarea {
 		-ms-flex-direction: row;
 		flex-direction: row;
 		min-height: 22.5em;
+		
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3072,6 +3078,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 25em;
+
 		}
 
 			.spotlights > section > .image img {
@@ -3443,7 +3450,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-image:  linear-gradient(to right, #162311, #092F2A);
+		background-image:  linear-gradient(to right, var(--generic_gradient_left), var(--generic_gradient_right));
 		cursor: default;
 		padding: 1.75em 2em;
 	}
