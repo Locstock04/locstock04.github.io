@@ -23,6 +23,12 @@ for (let c = 0; c < col; c++) {
     }
 }
 
+let gecko = false;
+if ( navigator.userAgent.includes("Gecko") && !navigator.userAgent.includes("like Gecko")) {
+    gecko = true;
+    console.log("Conway background can have some issues rendering on gecko, limiting the extra draws");
+}
+
 intro.addEventListener('mousemove', function(event){
     let x = event.pageX - intro.offsetLeft;
     let y = event.pageY - intro.offsetTop;
@@ -33,7 +39,9 @@ intro.addEventListener('mousemove', function(event){
     //ctx.fillStyle = "#202020";
     //ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
     
-    drawGrid();
+    if (!gecko) {
+        drawGrid();
+    }
     //ctx.fillStyle = "#AAFF22";
     //ctx.fillRect(c / col * canvas.width, r / row * canvas.height, gridSize, gridSize);
     //ctx.fillStyle = "#FF1010";
