@@ -4002,3 +4002,19 @@ input, select, textarea {
 			display: flex;
 			justify-content: space-between;
 }
+
+
+.video-container {
+	width: 75;
+	overflow: hidden;
+  }
+
+  .video-container video {
+	/* Make video to at least 100% wide and tall */
+	min-width: 100%; 
+  
+	/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+	width: 100%;
+	height: auto;
+
+  }
